@@ -100,10 +100,6 @@ For example if your environment file is in :  /data/environment/my-env.yaml
 
 Take care to link your environment file to `/container/environment/XX-somedir` (with XX < 99 so they will be processed before default environment files) and not  directly to `/container/environment` because this directory contains predefined baseimage environment files to fix container environment (INITRD, LANG, LANGUAGE and LC_CTYPE).
 
-#### Make your own image or extend this image
-
-This is the best solution if you have a private registry. Please refer to the [Advanced User Guide](#advanced-user-guide) just below.
-
 ## Advanced User Guide
 
 ### Under the hood: osixia/light-baseimage
