@@ -1,7 +1,7 @@
 # styliteag/docker-keepalived-with-labels
 
 This image uses https://github.com/osixia/docker-keepalived 
-I hat a helper script (notify.sh) which will update the Label of the host 
+I adds helper script (notify.sh) which will update the Label of the host 
 
 [hub]: https://hub.docker.com/r/sityliteag/docker-keepalived-with-labels
 
