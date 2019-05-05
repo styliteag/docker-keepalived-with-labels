@@ -1,6 +1,5 @@
 FROM osixia/keepalived
 LABEL maintainer="Wim Bonis wb@stylite.de"
-MAINTAINER Wim Bonis wb@stylite.de
 
 RUN apk --no-cache add docker
 
