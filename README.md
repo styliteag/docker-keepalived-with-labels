@@ -3,6 +3,10 @@
 This image uses https://github.com/osixia/docker-keepalived 
 I adds helper script (notify.sh) which will update the Label of the host 
 
+start-node-sh is a example how to start a keepalive on 3 nodes
+
+The node where the keepalive is the MASTER, will have the KEEPALIVE-10.40.8.10=MASTER and KEEPALIVE-2001:DB8:4008:d0ce::10=MASTER
+
 [hub]: https://hub.docker.com/r/sityliteag/docker-keepalived-with-labels
 
 **A docker image to run Keepalived.**
