@@ -1,8 +1,9 @@
 # styliteag/docker-keepalived-with-labels
 
-[hub]: https://hub.docker.com/r/sityliteag/docker-keepalived-with-labels
+This image uses https://github.com/osixia/docker-keepalived 
+I hat a helper script (notify.sh) which will update the Label of the host 
 
-Latest release: 2.0.15 - Keepalived 2.0.15 - [Changelog](CHANGELOG.md) | [Docker Hub](https://hub.docker.com/r/styliteag/docker-keepalived-with-labels/) 
+[hub]: https://hub.docker.com/r/sityliteag/docker-keepalived-with-labels
 
 **A docker image to run Keepalived.**
 > [keepalived.org](http://keepalived.org/)
@@ -105,26 +106,10 @@ This is the best solution if you have a private registry. Please refer to the [A
 
 ## Advanced User Guide
 
-### Tests
-
-We use **Bats** (Bash Automated Testing System) to test this image:
-
-> [https://github.com/sstephenson/bats](https://github.com/sstephenson/bats)
-
-Install Bats, and in this project directory run :
-
-	make test
-
-
 ### Under the hood: osixia/light-baseimage
 
 This image is based on osixia/light-baseimage.
 More info: https://github.com/osixia/docker-light-baseimage
-
-## Security
-If you discover a security vulnerability within this docker image, please send an email to the Osixia! team at security@osixia.net. For minor vulnerabilities feel free to add an issue here on github.
-
-Please include as many details as possible.
 
 ## Changelog
 
