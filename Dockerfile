@@ -1,4 +1,4 @@
-FROM osixia/keepalived
+FROM osixia/keepalived:latest
 LABEL maintainer="Wim Bonis wb@stylite.de"
 
 RUN apk --no-cache add docker
